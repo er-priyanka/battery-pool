@@ -1,6 +1,6 @@
 // backend url
-export const baseURL = 'http://localhost:8080'; //backend url (api);
-
+// export const baseURL = 'http://localhost:8080'; //backend url (api);
+export const baseURL = "https://battery-pool-1.onrender.com";
 
 // import axios from 'axios';
 // import store from '../Store'; 
