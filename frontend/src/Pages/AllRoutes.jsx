@@ -13,7 +13,11 @@ const AllRoutes = () => {
       
         <Route path="/signup" Component={Signup} />
         <Route path='/signin' Component={Signin} />
-        <Route path="/" Component={Home} />
+        <Route path="/" element={
+          <PrivateRoute>
+            <Home />
+          </PrivateRoute>
+        } />
         
         <Route path="/taskform" element={
             <PrivateRoute>
